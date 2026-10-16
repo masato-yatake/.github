@@ -42,6 +42,10 @@ class TestHits(unittest.TestCase):
         ("北海道", 0),
         ("道具", 0),
         ("手段", 0),
+        ("育苗箱施用", 0),
+        ("g/箱", 0),
+        ("箱を足す", 1),
+        ("部品の箱", 1),
     ]
 
     def test_hits(self):
